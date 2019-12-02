@@ -1,0 +1,225 @@
+@font-face {
+  font-family: "myFirstFont";
+  src: url("/font/Game\ of\ Thrones\ 2.ttf");
+}
+
+h1 {
+  text-align: center;
+  font-family: "myFirstFont";
+  background-color: gray;
+  color: rgba(255, 217, 0, 0.582);
+}
+
+.main-nav {
+  background-color: gray;
+  box-sizing: border-box;
+  font-family: "myFirstFont";
+  font-size: larger;
+  letter-spacing: 3px;
+  position: fixed;
+  text-align: center;
+  width: 1140px;
+  z-index: 1;
+}
+
+.picture {
+  position: relative;
+  top: 70px;
+}
+
+.menu-bar {
+  padding-top: 12px;
+  background-color: grey;
+  top: 0;
+}
+
+
+.video {
+  margin-left: 120px;
+  position: relative;
+  top: 150px;
+  z-index: 0;
+}
+
+.video-main {
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  text-align: center;
+  top: 150px;
+  background-color: transparent;
+  padding-top: 1.5em;
+  border-top-style: ridge;
+}
+
+body {
+  background-color: ghostwhite;
+  box-sizing: border-box;
+  margin: auto;
+  width: 1140px;
+}
+
+header {
+  width: 1140px
+}
+
+.menu {
+  box-sizing: border-box;
+  float: left;
+  text-decoration: none;
+  width: 20%;
+}
+
+.menu:link {
+  color: teal;
+}
+
+.menu:visited {
+  color: rgb(0, 54, 54);
+}
+
+.menu:hover {
+  background-color: rgb(129, 129, 129);
+  color: white
+}
+
+
+.logo:hover {
+  background-color: rgba(148, 148, 148, 0.993);
+}
+
+.trailer {
+  background: rgba(128, 128, 128, 0.614);
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: white;
+  font-family: "myFirstFont";
+  height: 50px;
+  letter-spacing: 2px;
+  padding: 17px 34px;
+  position: absolute;
+  right: 200px;
+  top: 540px;
+  text-decoration: none;
+  word-spacing: 4px;
+  width: 300px;
+  z-index: 2;
+}
+
+.trailer:hover {
+  background-color: rgba(156, 158, 160, 0.801);
+  color: black;
+  text-decoration: none;
+}
+
+footer img {
+  height: 20px;
+  opacity: 0.9;
+  position: inline;
+  padding-right: 10px;
+  right: 1000px;
+  width: 20px;
+}
+
+.footer-index {
+  background-color: rgb(171, 172, 172);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  clear: both;
+  height: 100px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  margin-top: 12em;
+  padding: 10px 0 20px 10px;
+  position: relative;
+  text-align: center;
+  width: 1140px;
+}
+
+
+.dropbtn {
+  color: rgb(0, 54, 54);
+  }
+
+.dropdown-content {
+  background-color: rgba(187, 191, 218, 0.596);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+  display: none;
+  min-width: 160px;
+  position: relative;
+  right: 380px;
+  top: 129px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: rgb(109, 47, 47);
+  display: block;
+  padding: 10px 5px;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: inline-block;
+  position: absolute;
+}
+
+.dropdown:hover .dropbtn {
+  color: white;
+}
+
+.img {
+  box-sizing: border-box;
+  margin-top: 50px;
+  margin: auto;
+  width: 100%;
+}
+
+.dead-alive {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  right: 370px;
+  top: 280px;
+}
+
+.container {
+  color: black;
+  float: left;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 50px;
+  margin: auto;
+  position: relative;
+  width: 50%;
+}
+
+table {
+  position: relative;
+  text-align: center;
+  top: 40px;
+}
+
+td {
+  background-color: rgba(231, 230, 230, 0.216);
+  border-radius: 10px
+}
+
+.name {
+  background-color: rgba(80, 80, 80, 0.153);
+  height: 50px;
+  text-align: center;
+}
+
+.numberOfDead {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  position: relative;
+  top: 80px;
+}
+
+.main {
+  background: url("/img/dragon.jpg") no-repeat center center fixed;
+}
+
